@@ -8,6 +8,26 @@
 ## Schematic
 <img src="https://github.com/TiagoPaulaSilva/ChristmasTree/blob/master/Others/ChristmasTree%20Schematic.png" width="100%" height="100%">
 
+## Bill of Materials
+| Qty | Parts | Description | Value | Package |
+|--|--|--|--|--|
+1|R1|SMD Resistor|10k ±5%|R0603
+2|R2/R3|SMD Resistor|22R ±5%|R0603
+1|R4|SMD Resistor|470R ±5%|R0603
+1|R5|SMD Resistor|100k ±5%|R0603
+1|C1|SMD Capacitor|1uF / 50V|C0805
+1|C2|SMD Capacitor|22nF / 50V|C0603
+2|C3/C5|SMD Capacitor|1uF / 50V|C0603
+17|C4/C6/C7/C8/C9/C10/C11/C12/C13/C14/C15/C16/C17/C18/C19/C20/C21|SMD Capacitor|100nF / 50V|C0603
+1|LDR1|PTH LDR|1 MΩ (Lux 0) / 10-20 KΩ (Lux 10)|5mm
+1|Y1|SMD Crystal|8MHz|5.0mm x 3.2mm
+1|U1|SMD Integrated Circuit|RT9193-33GB|SOT23-5
+1|U2|SMD Integrated Circuit|ATMEGA32U4|QFN-44
+2|D1/D2|SMD Diode|SS34|DO214AB
+1|CN1|SMD Connector|MISB-SW-5B|Micro USB Type B
+1|CN2|PTH Connector|JST-PH-2P|2-pin
+13|LED1/LED2/LED3/LED4/LED5/LED6/LED7/LED8/LED9/LED10/LED11/LED12/LED13/|SMD RGB LED|WS2812B|5050
+
 ### Contributing
 0. Give this project a :star:
 1. Create an issue and describe your idea.
