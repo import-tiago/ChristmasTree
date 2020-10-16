@@ -12431,9 +12431,9 @@ Created 2016-06-07, Hans Locher&lt;br&gt;
 <part name="C3" library="My-RLC" deviceset="C_" device="0603" package3d_urn="urn:adsk.eagle:package:23494015/2" value="1uF"/>
 <part name="SUPPLY47" library="My-Supply" deviceset="0V" device=""/>
 <part name="SUPPLY48" library="My-Supply" deviceset="0V" device=""/>
-<part name="LDR1" library="photo-elements" deviceset="A10" device="" package3d_urn="urn:adsk.eagle:package:23501050/2" override_package3d_urn="urn:adsk.eagle:package:23536266/2" override_package_urn="urn:adsk.eagle:footprint:23536267/1" technology="50_09" value="A1050_09"/>
+<part name="LDR1" library="photo-elements" deviceset="A10" device="" package3d_urn="urn:adsk.eagle:package:23501050/2" override_package3d_urn="urn:adsk.eagle:package:23536266/2" override_package_urn="urn:adsk.eagle:footprint:23536267/1" technology="50_09" value=""/>
 <part name="SUPPLY33" library="My-Supply" deviceset="3.3V" device=""/>
-<part name="R5" library="My-RLC" deviceset="R_" device="0603" package3d_urn="urn:adsk.eagle:package:23494030/2" value="10k (5%)"/>
+<part name="R5" library="My-RLC" deviceset="R_" device="0603" package3d_urn="urn:adsk.eagle:package:23494030/2" value="100k (5%)"/>
 <part name="SUPPLY34" library="My-Supply" deviceset="0V" device=""/>
 <part name="MH1" library="testpad" library_urn="urn:adsk.eagle:library:385" deviceset="TPSQ" device="TP20R" package3d_urn="urn:adsk.eagle:package:27973/1"/>
 <part name="MH2" library="testpad" library_urn="urn:adsk.eagle:library:385" deviceset="TPSQ" device="TP20R" package3d_urn="urn:adsk.eagle:package:27973/1"/>
