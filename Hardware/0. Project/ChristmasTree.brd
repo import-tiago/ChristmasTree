@@ -6880,7 +6880,7 @@ design rules under a new name.</description>
 <element name="LED2" library="My-LED" package="5050" package3d_urn="urn:adsk.eagle:package:23501017/2" value="WS2812B" x="44.545" y="29.752" smashed="yes">
 <attribute name="NAME" x="48.0375" y="31.3395" size="0.8128" layer="25" ratio="10" rot="R270" display="off"/>
 </element>
-<element name="R4" library="My-RLC" package="R0603" package3d_urn="urn:adsk.eagle:package:23494030/2" value="470R" x="56.041" y="2.875" smashed="yes" rot="MR0">
+<element name="R4" library="My-RLC" package="R0603" package3d_urn="urn:adsk.eagle:package:23494030/2" value="150R" x="56.041" y="2.875" smashed="yes" rot="MR0">
 <attribute name="NAME" x="54" y="2.844" size="0.8128" layer="26" font="vector" ratio="15" rot="MR270" align="center"/>
 <attribute name="VALUE" x="56.676" y="0.97" size="1.27" layer="28" rot="MR0" display="off"/>
 </element>
@@ -6933,7 +6933,7 @@ design rules under a new name.</description>
 <element name="D2" library="My-Diodes" package="DO214AB" package3d_urn="urn:adsk.eagle:package:23536213/2" value="SS34" x="43.119" y="7.047" smashed="yes" rot="MR270">
 <attribute name="NAME" x="41.761" y="10.915" size="0.8128" layer="26" font="vector" ratio="15" rot="MR180" align="center"/>
 </element>
-<element name="C2" library="My-RLC" package="C0603" package3d_urn="urn:adsk.eagle:package:23494015/2" value="22nF" x="48.54" y="6.193" smashed="yes" rot="MR0">
+<element name="C2" library="My-RLC" package="C0603" package3d_urn="urn:adsk.eagle:package:23494015/2" value="10nF" x="48.54" y="6.193" smashed="yes" rot="MR0">
 <attribute name="NAME" x="50.935" y="6.169" size="0.8128" layer="26" font="vector" ratio="15" rot="MR0" align="center"/>
 <attribute name="VALUE" x="48.794" y="3.399" size="0.6096" layer="28" ratio="10" rot="MR0" display="off"/>
 </element>
@@ -6979,7 +6979,7 @@ design rules under a new name.</description>
 <attribute name="NAME" x="56.647" y="16.891" size="0.8128" layer="26" font="vector" ratio="15" rot="MR90" align="center"/>
 <attribute name="VALUE" x="53.844" y="14.475" size="0.6096" layer="28" ratio="10" rot="MR90" display="off"/>
 </element>
-<element name="Y1" library="crystal-geyer_V1_0" library_urn="urn:adsk.eagle:library:203" package="5.0X3.2_KX-9A" package3d_urn="urn:adsk.eagle:package:11927/1" override_package3d_urn="urn:adsk.eagle:package:23536242/2" override_package_urn="urn:adsk.eagle:footprint:11874/1" value="8MHz" x="66.271" y="6.322" smashed="yes" rot="MR90">
+<element name="Y1" library="crystal-geyer_V1_0" library_urn="urn:adsk.eagle:library:203" package="5.0X3.2_KX-9A" package3d_urn="urn:adsk.eagle:package:11927/1" override_package3d_urn="urn:adsk.eagle:package:23536242/2" override_package_urn="urn:adsk.eagle:footprint:11874/1" value="16MHz" x="66.271" y="6.322" smashed="yes" rot="MR90">
 <attribute name="NAME" x="68.715" y="6.355" size="0.8128" layer="26" font="vector" ratio="15" rot="MR0" align="center"/>
 <attribute name="VALUE" x="62.08" y="0.607" size="1.27" layer="28" ratio="10" rot="MR90" display="off"/>
 </element>
@@ -7005,7 +7005,7 @@ design rules under a new name.</description>
 <attribute name="POPULARITY" value="0" x="51.216" y="20.006" size="1.778" layer="28" rot="MR270" display="off"/>
 <attribute name="VALUE" x="47.406" y="21.911" size="1.27" layer="28" rot="MR270" display="off"/>
 </element>
-<element name="R5" library="My-RLC" package="R0603" package3d_urn="urn:adsk.eagle:package:23494030/2" value="100k (5%)" x="48.561" y="4.645" smashed="yes" rot="MR180">
+<element name="R5" library="My-RLC" package="R0603" package3d_urn="urn:adsk.eagle:package:23494030/2" value="220k (5%)" x="48.561" y="4.645" smashed="yes" rot="MR180">
 <attribute name="NAME" x="50.936" y="4.632" size="0.8128" layer="26" font="vector" ratio="15" rot="MR180" align="center"/>
 <attribute name="VALUE" x="47.037" y="6.169" size="0.6096" layer="28" ratio="10" rot="MR180" display="off"/>
 </element>

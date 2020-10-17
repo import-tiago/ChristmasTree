@@ -12357,7 +12357,7 @@ Created 2016-06-07, Hans Locher&lt;br&gt;
 <parts>
 <part name="LED1" library="My-LED" deviceset="WS2812B" device="" package3d_urn="urn:adsk.eagle:package:23501017/2"/>
 <part name="LED2" library="My-LED" deviceset="WS2812B" device="" package3d_urn="urn:adsk.eagle:package:23501017/2"/>
-<part name="R4" library="My-RLC" deviceset="R_" device="0603" package3d_urn="urn:adsk.eagle:package:23494030/2" value="470R"/>
+<part name="R4" library="My-RLC" deviceset="R_" device="0603" package3d_urn="urn:adsk.eagle:package:23494030/2" value="150R"/>
 <part name="SUPPLY1" library="My-Supply" deviceset="0V" device=""/>
 <part name="SUPPLY2" library="My-Supply" deviceset="0V" device=""/>
 <part name="SUPPLY3" library="My-Supply" deviceset="3.3V" device=""/>
@@ -12398,7 +12398,7 @@ Created 2016-06-07, Hans Locher&lt;br&gt;
 <part name="D1" library="My-Diodes" deviceset="SS34" device="" package3d_urn="urn:adsk.eagle:package:23536213/2"/>
 <part name="U1" library="RT9193-33GB" deviceset="RT9193-33GB" device="" package3d_urn="urn:adsk.eagle:package:23536219/2"/>
 <part name="D2" library="My-Diodes" deviceset="SS34" device="" package3d_urn="urn:adsk.eagle:package:23536213/2"/>
-<part name="C2" library="My-RLC" deviceset="C_" device="0603" package3d_urn="urn:adsk.eagle:package:23494015/2" value="22nF"/>
+<part name="C2" library="My-RLC" deviceset="C_" device="0603" package3d_urn="urn:adsk.eagle:package:23494015/2" value="10nF"/>
 <part name="SUPPLY29" library="My-Supply" deviceset="0V" device=""/>
 <part name="SUPPLY30" library="My-Supply" deviceset="0V" device=""/>
 <part name="CN2" library="My-Battery" deviceset="CELL-CONNECTOR" device="" package3d_urn="urn:adsk.eagle:package:23501004/4" value="3.7V"/>
@@ -12422,7 +12422,7 @@ Created 2016-06-07, Hans Locher&lt;br&gt;
 <part name="SUPPLY41" library="My-Supply" deviceset="0V" device=""/>
 <part name="SUPPLY42" library="My-Supply" deviceset="0V" device=""/>
 <part name="SUPPLY44" library="My-Supply" deviceset="0V" device=""/>
-<part name="Y1" library="crystal-geyer_V1_0" library_urn="urn:adsk.eagle:library:203" deviceset="KX" device="-9A" package3d_urn="urn:adsk.eagle:package:11927/1" override_package3d_urn="urn:adsk.eagle:package:23536242/2" override_package_urn="urn:adsk.eagle:footprint:11874/1" value="8MHz"/>
+<part name="Y1" library="crystal-geyer_V1_0" library_urn="urn:adsk.eagle:library:203" deviceset="KX" device="-9A" package3d_urn="urn:adsk.eagle:package:11927/1" override_package3d_urn="urn:adsk.eagle:package:23536242/2" override_package_urn="urn:adsk.eagle:footprint:11874/1" value="16MHz"/>
 <part name="C7" library="My-RLC" deviceset="C_" device="0603" package3d_urn="urn:adsk.eagle:package:23494015/2" value="100nF"/>
 <part name="C8" library="My-RLC" deviceset="C_" device="0603" package3d_urn="urn:adsk.eagle:package:23494015/2" value="100nF"/>
 <part name="SUPPLY45" library="My-Supply" deviceset="0V" device=""/>
@@ -12433,7 +12433,7 @@ Created 2016-06-07, Hans Locher&lt;br&gt;
 <part name="SUPPLY48" library="My-Supply" deviceset="0V" device=""/>
 <part name="LDR1" library="photo-elements" deviceset="A10" device="" package3d_urn="urn:adsk.eagle:package:23501050/2" override_package3d_urn="urn:adsk.eagle:package:23536266/2" override_package_urn="urn:adsk.eagle:footprint:23536267/1" technology="50_09" value=""/>
 <part name="SUPPLY33" library="My-Supply" deviceset="3.3V" device=""/>
-<part name="R5" library="My-RLC" deviceset="R_" device="0603" package3d_urn="urn:adsk.eagle:package:23494030/2" value="100k (5%)"/>
+<part name="R5" library="My-RLC" deviceset="R_" device="0603" package3d_urn="urn:adsk.eagle:package:23494030/2" value="220k (5%)"/>
 <part name="SUPPLY34" library="My-Supply" deviceset="0V" device=""/>
 <part name="MH1" library="testpad" library_urn="urn:adsk.eagle:library:385" deviceset="TPSQ" device="TP20R" package3d_urn="urn:adsk.eagle:package:27973/1"/>
 <part name="MH2" library="testpad" library_urn="urn:adsk.eagle:library:385" deviceset="TPSQ" device="TP20R" package3d_urn="urn:adsk.eagle:package:27973/1"/>
@@ -12470,10 +12470,15 @@ Created 2016-06-07, Hans Locher&lt;br&gt;
 <plain>
 <text x="320.802" y="28.067" size="3.81" layer="94" align="center">Tiago Silva</text>
 <text x="320.802" y="22.225" size="2.413" layer="94" align="center">github.com/TiagoPaulaSilva/ChristmasTree</text>
-<text x="377.825" y="1.27" size="2.54" layer="94" ratio="5">1.0</text>
+<text x="377.825" y="1.27" size="2.54" layer="94" ratio="5">1.1</text>
 <text x="306.705" y="6.35" size="2.54" layer="94" ratio="5">Complete Schematic</text>
 <text x="116.84" y="144.78" size="0.002540625" layer="97" ratio="0" grouprefs="MECHANICALS_SUPPORT">.</text>
 <text x="116.84" y="177.8" size="0.002540625" layer="97" ratio="0" grouprefs="MECHANICALS_SUPPORT">.</text>
+<text x="124.46" y="209.804" size="1.27" layer="98" font="vector" align="center">SJ1
+OPEN while working on the firmware
+CLOSE while in normal operation</text>
+<text x="114.554" y="219.964" size="5.08" layer="98" font="vector" align="center">*</text>
+<text x="121.158" y="213.36" size="5.08" layer="98" font="vector" align="center">*</text>
 </plain>
 <instances>
 <instance part="LED1" gate="G$1" x="56.515" y="74.295" smashed="yes" grouprefs="RGB_LEDS">
@@ -13548,6 +13553,10 @@ Created 2016-06-07, Hans Locher&lt;br&gt;
 </schematic>
 </drawing>
 <compatibility>
+<note version="6.3" minversion="6.2.2" severity="warning">
+Since Version 6.2.2 text objects can contain more than one line,
+which will not be processed correctly with this version.
+</note>
 <note version="8.2" severity="warning">
 Since Version 8.2, EAGLE supports online libraries. The ids
 of those online libraries will not be understood (or retained)
