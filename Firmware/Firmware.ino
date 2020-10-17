@@ -20,7 +20,7 @@
 #define DATA_PIN 6
 
 #define LDR_PIN A0
-#define LIGHT_LEVEL 950
+#define LIGHT_LEVEL 750
 
 CRGB leds[NUM_LEDS];
 
@@ -44,12 +44,9 @@ int    thisdelay = 50;
 
 
 void setup() {
-
+  
   Serial.begin(9600);
-  while (!Serial) {
-    ; // wait for serial port to connect. Needed for native USB port only
-  }                                              // Soft startup to ease the flow of electrons.
-
+  
   pinMode(LDR_PIN, INPUT);
 
   FastLED.addLeds<WS2812B, DATA_PIN, GRB>(leds, NUM_LEDS);
@@ -69,15 +66,15 @@ void loop () {
   for (int i = 0; i < 100; i++) {
     Current_Light_Level += analogRead(LDR_PIN);
   }
-  Current_Light_Level /= 100;
+  Current_Light_Level /= 100;  
+  Serial.println(Current_Light_Level);
 
   thisbri = Current_Light_Level / 4;
 
   if (thisbri < 30)
     thisbri = 30;
 
-  Serial.println(thisbri);
-
+  //Serial.println(thisbri);
   if (Current_Light_Level < LIGHT_LEVEL) {
 
     EVERY_N_MILLISECONDS(50) {
