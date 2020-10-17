@@ -13,10 +13,10 @@
 |--|--|--|--|--|
 1|R1|SMD Resistor|10k ±5%|R0603
 2|R2/R3|SMD Resistor|22R ±5%|R0603
-1|R4|SMD Resistor|470R ±5%|R0603
-1|R5|SMD Resistor|100k ±5%|R0603
+1|R4|SMD Resistor|150R ±5%|R0603
+1|R5|SMD Resistor|220k ±5%|R0603
 1|C1|SMD Capacitor|1uF / 50V|C0805
-1|C2|SMD Capacitor|22nF / 50V|C0603
+1|C2|SMD Capacitor|10nF / 50V|C0603
 2|C3/C5|SMD Capacitor|1uF / 50V|C0603
 17|C4/C6~C21|SMD Capacitor|100nF / 50V|C0603
 1|LDR1|PTH LDR|1 MΩ (Lux 0) / 10-20 KΩ (Lux 10)|5mm
